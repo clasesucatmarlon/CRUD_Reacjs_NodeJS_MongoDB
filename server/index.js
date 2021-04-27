@@ -10,7 +10,7 @@ const ProductosModel = require('./models/Productos');
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://user_root:root1234567@crud.akqxk.mongodb.net/productos?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<user>:<password>@crud.akqxk.mongodb.net/productos?retryWrites=true&w=majority', {
     useNewUrlParser: true,
 })
 
